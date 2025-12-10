@@ -1,8 +1,10 @@
 div{
-    background-color:orange;
+  
     color: white;
     text-align: center;
+   
 }
+
 nav a{
     margin:0 10px 0 10px;
   display:inline-block;
@@ -10,11 +12,11 @@ nav a{
   text-align:center;
 }
 body{
-    background-color: green;
-}
-body{
-    background-color: blue;
+  background-image: url(image\ 2.jpg)
     
-  
 }
+p{
+  color: white;
+}
+
 
