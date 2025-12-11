@@ -1,22 +1,58 @@
-div{
-  background-color: gold;
-    color: white;
-    text-align: center;
-   
+.container{
+  display:flex;
+}
+.container div{
+  flex:1;
 }
 
-nav a{
-    margin:0 10px 0 10px;
-  display:inline-block;
-  width:20%;
+nav{
+  background-color: green;
+  height:70px;
+  align-items: center;
+}
+
+nav a {
+  flex:1;
+  color:white;
+  font-size: 36px;
+  text-decoration-line: none;
   text-align:center;
 }
+nav a:hover{
+  width:20%;
+  
+  background-color: ;
+
+}
+.banner{
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+.heading{
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color:wheat;
+  color:black;
+}
+.main div img{
+  height:400px;
+  border-radius:10px;
+  padding:10px;
+
+}
+
+
+
+
 body{
-  background-color: aqua;
+  background-color: lightgreen;
     
 }
 p{
-  color: white;
+  color:blue;
 }
 
 
